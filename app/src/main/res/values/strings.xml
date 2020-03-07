@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string name="my_text">I am Developer!</string>
+    <string name="hey_now_brown_cow_down_tow">Hey now brown cow down tow!</string>
+    <string name="hey_now">Hey now</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

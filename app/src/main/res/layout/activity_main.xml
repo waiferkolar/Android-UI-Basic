@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#191C20"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        style="@style/my_edit_text_style"
+        android:layout_marginBottom="25dp"
+        android:hint="@string/email"
+        android:drawableLeft="@drawable/my_sar_eight"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/my_edit_text_style"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/my_key"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="43dp"
+        android:onClick="showT"
+        android:background="@drawable/circle_back"
+        android:text="&#128077;" />
+</LinearLayout>
