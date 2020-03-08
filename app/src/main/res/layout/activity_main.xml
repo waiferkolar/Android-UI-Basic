@@ -4,25 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="#191C20"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="TextView" />
     <EditText
         android:id="@+id/editText"
         style="@style/my_edit_text_style"
         android:layout_marginBottom="25dp"
-        android:hint="@string/email"
         android:drawableLeft="@drawable/my_sar_eight"
+        android:hint="@string/email"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/editText2"
         style="@style/my_edit_text_style"
-        android:hint="@string/password"
         android:drawableLeft="@drawable/my_key"
-        android:inputType="text" />
+        android:hint="@string/password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button2"
@@ -31,7 +40,16 @@
         android:layout_gravity="right"
         android:layout_marginTop="25dp"
         android:layout_marginRight="43dp"
-        android:onClick="showT"
         android:background="@drawable/circle_back"
         android:text="&#128077;" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/happy" />
+
+
 </LinearLayout>
